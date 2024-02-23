@@ -1,0 +1,5 @@
+# Map all messages and services **with the same names and fields**
+# from the ROS 1 package zed_msgs to the ROS 2 package zed_interfaces
+- 
+  ros1_package_name: 'zed_msgs'
+  ros2_package_name: 'zed_interfaces'

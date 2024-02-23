@@ -4,6 +4,9 @@ string label
 # Object label ID
 int16 label_id
 
+# Object instance ID
+int16 instance_id
+
 # Object sub
 string sublabel
 
@@ -19,9 +22,9 @@ float32[6] position_covariance
 # Object velocity
 float32[3] velocity
 
+# Tracking available
 bool tracking_available
 
-# Tracking available
 # Tracking state
 # 0 -> OFF (object not valid)
 # 1 -> OK

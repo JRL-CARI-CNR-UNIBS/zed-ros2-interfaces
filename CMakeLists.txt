@@ -107,5 +107,11 @@ install(DIRECTORY
   DESTINATION share/${PROJECT_NAME}
 )
 
+# Install ros1_bridge mapping rules
+install(
+  FILES bridge_mapping_rules.yaml
+  DESTINATION share/${PROJECT_NAME}
+)
+
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()
