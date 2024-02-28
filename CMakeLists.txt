@@ -87,6 +87,7 @@ set(MSG_FILES
     "msg/PlaneStamped.msg"
     "msg/PosTrackStatus.msg"
     "msg/Heartbeat.msg"
+    "msg/Quaternion.msg"
 )
 
 set(SRV_FILES

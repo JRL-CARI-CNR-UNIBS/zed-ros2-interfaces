@@ -68,4 +68,5 @@ float32[3] head_position
 zed_interfaces/Skeleton2D skeleton_2d
 
 # 3D Person skeleton in world frame
+# (with global root orientation, local position and orientation of each joint - provided that BODY_FORMAT is NOT POSE_18)
 zed_interfaces/Skeleton3D skeleton_3d
