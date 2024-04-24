@@ -88,6 +88,7 @@ set(MSG_FILES
     "msg/PosTrackStatus.msg"
     "msg/Heartbeat.msg"
     "msg/Quaternion.msg"
+    "msg/Covariance.msg"
 )
 
 set(SRV_FILES
